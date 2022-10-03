@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+  .header__content {
+    max-width: 720px;
+    margin: auto;
+    padding-bottom: 52px;
+  }
+}
+
+.header {
+  max-width: 320px;
+  background-color: #2A2C2F;
+}
+
+.header__content {
+  max-width: 288px;
+  margin: auto;
+  padding-bottom: 48px;
+}
