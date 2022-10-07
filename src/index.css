@@ -1,4 +1,19 @@
-/* you can delete this selector after you import the normilise css file  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+@font-face {
+  font-family: "InterBlack";
+  src: url(./fonts/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+html {
+  font-family: "InterRegular", "Inter", sans-serif;
+  font-weight: 400;
+}
 
 body {
   margin: 0;

@@ -1,12 +1,20 @@
 import styles from "./Header.module.css";
-// import langLink from "./images/lang-link.png";
+import headerLogo from "../../images/__logo.svg";
 
 function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.header__content}>
-        123
-        {/* <img className="headerImage" src={langLink} alt="Map of Russia"></img> */}
+      <div className={styles.logoWrapper}>
+        <img className="headerImage" src={headerLogo} alt="Map of Russia"></img>
+        <p className={styles.imageSignature}>Россия</p>
+      </div>
+      <div className={styles.links}>
+        <a href="#" className={`${styles.link} ${styles.ruLink}`}>
+          Ru
+        </a>
+        <a href="#" className={`${styles.link} ${styles.enLink}`}>
+          En
+        </a>
       </div>
     </header>
   );
