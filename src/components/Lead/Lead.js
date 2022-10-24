@@ -3,15 +3,15 @@ import route from "../../images/route.svg";
 
 function Lead() {
   return (
-    <>
-      <p className={styles.title}>Путешествия по России</p>
-      <p className={styles.subtitle}>
+    <section className={styles.wrapper}>
+      <title className={styles.title}>Путешествия по России</title>
+      <subtitle className={styles.subtitle}>
         Настоящая страна не в выпусках новостей, а здесь.
-      </p>
+      </subtitle>
       <figure className={styles.figure}>
         <figcaption className={styles.caption}>ваша полка — верхняя</figcaption>
       </figure>
-    </>
+    </section>
   );
 }
 
