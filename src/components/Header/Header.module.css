@@ -1,12 +1,11 @@
 .header {
-padding: 16px;
+margin: 16px;
 display: flex;
 justify-content: space-between;
 }
 
 .logoWrapper {
   max-width: 288px;
-  padding-bottom: 48px;
   display: flex;
   justify-content: space-between;
 }
@@ -43,9 +42,8 @@ justify-content: space-between;
 
 @media (min-width: 768px) {
   .header {
-    min-width: 720px;
     margin: auto;
-    padding: 28px 24px 48px 24px;
+    padding: 28px 24px 0 24px;
   }
 
   .logoWrapper {
@@ -73,9 +71,8 @@ justify-content: space-between;
 
 @media (min-width: 1024px) {
   .header {
-    min-width: 928px;
     margin: auto;
-    padding: 28px 48px 48px 48px;
+    padding: 28px 48px 0px 48px;
   }
 
   .logoWrapper {
@@ -92,9 +89,8 @@ justify-content: space-between;
 
 @media (min-width: 1280px) {
   .header {
-    min-width: 1184px;
     margin: auto;
-    padding: 28px 48px 56px 48px;
+    padding: 28px 48px 0px 48px;
   }
 
   .logoWrapper {
