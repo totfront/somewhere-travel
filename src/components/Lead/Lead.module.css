@@ -1,0 +1,33 @@
+.title {
+    color: white;
+    text-align: center;
+    font-family: "interBlack";
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 16px;
+}
+
+.figure {
+    position: relative;
+    background-image: url("../../images/route.svg"), url("../../images/womanSleeping.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%, cover;
+    background-position: 0% 25%, center;
+    margin: 0;
+    height: 200px;
+}
+
+.caption {
+    position: absolute;
+    letter-spacing: 1.5px;
+    bottom: -8px;
+    transform: translateY(100%);
+}
