@@ -24,12 +24,12 @@
 
 .Introlist {
     display: inline-block;
+    padding-inline-start: 0px;
     list-style: none;
-
+    align-self: flex-start;
 }
 
 .Introitem {
-    padding-inline-start: 0px;
     font-family: "InterRegular";
     font-size: 12px;
     line-height: 18px;

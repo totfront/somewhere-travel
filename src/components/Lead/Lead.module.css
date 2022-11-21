@@ -37,6 +37,8 @@
 }
 
 .caption {
+    margin-left: 16px;
+    color: white;
     position: absolute;
     letter-spacing: 1.5px;
     bottom: -8px;

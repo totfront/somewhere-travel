@@ -15,29 +15,29 @@ function Intro() {
         проехала 20 тысяч километров по родной стране. Мы выбрали и описали
         некоторые интересные места, достойные вашего отпуска.
       </p>
-      <li className={styles.Introlist}>
-        <ul className={styles.Introitem}>
+      <ul className={styles.Introlist}>
+        <li className={styles.Introitem}>
           <span className={styles.bolditem}>Часовых поясов</span> 11
-        </ul>
-        <ul className={styles.Introitem}>
+        </li>
+        <li className={styles.Introitem}>
           <span className={styles.bolditem}>
             Объектов природного наследия ЮНЕСКО
           </span>{" "}
           12
-        </ul>
-        <ul className={styles.Introitem}>
+        </li>
+        <li className={styles.Introitem}>
           <span className={styles.bolditem}>
             Объектов культурного наследия ЮНЕСКО
           </span>{" "}
           16
-        </ul>
-        <ul className={styles.Introitem}>
+        </li>
+        <li className={styles.Introitem}>
           <span className={styles.bolditem}>Природных заповедников</span> 105
-        </ul>
-        <ul className={styles.Introitem}>
+        </li>
+        <li className={styles.Introitem}>
           <span className={styles.bolditem}>Аэропортов</span> 241
-        </ul>
-      </li>
+        </li>
+      </ul>
     </section>
   );
 }
