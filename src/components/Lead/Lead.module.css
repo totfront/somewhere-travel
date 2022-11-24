@@ -41,6 +41,8 @@
     letter-spacing: 1.5px;
     bottom: -8px;
     transform: translateY(100%);
+    color: white;
+    margin-left: 16px;
 }
 
 @media (min-width: 768px) {
@@ -72,6 +74,10 @@
         margin: 0;
         height: 480px;
     }
+
+    .caption {
+        margin-left: 32px;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -102,6 +108,10 @@
         margin: 0;
         height: 580px;
     }
+
+    .caption {
+        margin-left: 48px;
+    }
   }
 
   @media (min-width: 1280px) {
@@ -131,5 +141,9 @@
         background-position: 50% 25%, center;
         margin: 0;
         height: 580px;
+    }
+
+    .caption {
+        margin-left: 150px;
     }
   }
