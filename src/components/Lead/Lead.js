@@ -4,7 +4,7 @@ import route from "../../images/route.svg";
 function Lead() {
   return (
     <section className={styles.wrapper}>
-      <title className={styles.title}>Путешествия по России</title>
+      <title className={styles.title}>Путешествия по $России$</title>
       <subtitle className={styles.subtitle}>
         Настоящая страна не в выпусках новостей, а здесь.
       </subtitle>
