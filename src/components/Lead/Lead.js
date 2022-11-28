@@ -9,7 +9,7 @@ function Lead() {
         Настоящая страна не в выпусках новостей, а здесь.
       </subtitle>
       <figure className={styles.figure}>
-        <figcaption className={styles.caption}>ваша полка — верхняя</figcaption>
+        <figcaption className={styles.caption}>ваша полка - верхняя</figcaption>
       </figure>
     </section>
   );
