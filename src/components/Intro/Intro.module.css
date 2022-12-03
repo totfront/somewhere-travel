@@ -14,7 +14,7 @@
     line-height: 35px;
 }
 
-.Introtext {
+.introText {
     margin-top: 40px;
     font-family: "InterRegular";
     color: white;
@@ -22,20 +22,20 @@
     line-height: 26.08px;
 }
 
-.Introlist {
+.introList {
     display: inline-block;
     padding-inline-start: 0px;
     list-style: none;
     align-self: flex-start;
 }
 
-.Introitem {
+.introItem {
     font-family: "InterRegular";
     font-size: 12px;
     line-height: 18px;
     color: white;
 }
 
-.bolditem {
+.boldItem {
     font-weight: bold;
 }
