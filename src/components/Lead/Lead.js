@@ -1,5 +1,5 @@
 import styles from "./Lead.module.css";
-import route from "../../images/route.svg";
+import route from "../../Images/route.svg";
 
 function Lead() {
   return (
