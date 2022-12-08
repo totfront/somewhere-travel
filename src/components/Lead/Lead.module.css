@@ -27,7 +27,7 @@
 
 .figure {
     position: relative;
-    background-image: url("../../images/route.svg"), url("../../images/womanSleeping.png");
+    background-image: url("../../Images/route.svg"), url("../../Images/womanSleeping.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 100%, cover;
     background-position: 0% 25%, center;
@@ -67,7 +67,7 @@
 
     .figure {
         position: relative;
-        background-image: url("../../images/route.svg"), url("../../images/womanSleeping.png");
+        background-image: url("../../Images/route.svg"), url("../../Images/womanSleeping.png");
         background-repeat: no-repeat, no-repeat;
         background-size: 100%, cover;
         background-position: 0% 25%, center;
@@ -97,7 +97,7 @@
 
     .figure {
         position: relative;
-        background-image: url("../../images/route.svg"), url("../../images/womanSleeping.png");
+        background-image: url("../../Images/route.svg"), url("../../Images/womanSleeping.png");
         background-repeat: no-repeat, no-repeat;
         background-size: 90.625%, 90.625%;
         background-position: 50% 25%, center;
@@ -127,7 +127,7 @@
 
     .figure {
         position: relative;
-        background-image: url("../../images/route.svg"), url("../../images/womanSleeping.png");
+        background-image: url("../../Images/route.svg"), url("../../Images/womanSleeping.png");
         background-repeat: no-repeat, no-repeat;
         background-size: 76.875%, 76.875%;
         background-position: 50% 25%, center;
