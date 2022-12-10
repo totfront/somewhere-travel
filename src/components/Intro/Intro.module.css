@@ -3,7 +3,7 @@
     margin: 64px auto 0 auto;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
 }
 
 .title {
@@ -38,4 +38,30 @@
 
 .boldItem {
     font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 720px;
+    }
+
+    .title {
+        font-size: 54px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        max-width: 690px;
+        align-items: start;
+        margin: 64px 286px 0 48px
+    }
+}
+
+@media (min-width: 1280px) {
+    .wrapper {
+        max-width: 690px;
+        align-items: start;
+        margin: 64px 442px 0 148px
+    }
 }
