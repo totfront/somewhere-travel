@@ -1,4 +1,46 @@
 .wrapper {
     display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+}
+
+.title {
+    line-height: 35px;
+    font-size: 32px;
+    color: white;
+    font-family: "InterBlack";
+    margin: 64px 16px 0 16px;
+}
+.subtitle {
     
+    margin: 32px 16px 0 16px;
+}
+.url {
+    font-family: "InterRegular";
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    font-weight: normal;
+}
+
+.link {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: white;
+    text-decoration-line: underline;
+}
+
+.img {
+    width: 100%;
+    margin: 32px 0;
+}
+
+.paragraph {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26.08px;
+    color: white;
+    margin: 0px auto 25px auto;
 }
