@@ -4,13 +4,14 @@ import route from "../../Images/route.svg";
 function Lead() {
   return (
     <section className={styles.wrapper}>
-      <title className={styles.title}>Путешествия по России</title>
-      <subtitle className={styles.subtitle}>
+      <h1 className={styles.title}>Путешествия по России</h1>
+      <h2 className={styles.subtitle}>
         Настоящая страна не в выпусках новостей, а здесь.
-      </subtitle>
-      <figure className={styles.figure}>
-        <figcaption className={styles.caption}>ваша полка - верхняя</figcaption>
+      </h2>
+      <figure className={styles.backgroundPhoto}>
+        <img src={route} className={styles.stopovers} alt="route" />
       </figure>
+      <figcaption className={styles.caption}>ваша полка — верхняя</figcaption>
     </section>
   );
 }
