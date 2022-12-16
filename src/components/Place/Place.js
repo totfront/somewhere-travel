@@ -1,9 +1,9 @@
 import styles from "./Place.module.css";
-import imgKosa from "../../Images/place/kosa.png";
-import imgKolsky from "../../Images/place/kolsky.png";
-import imgBaikal from "../../Images/place/baikal.png";
-import imgKarelia from "../../Images/place/kareliya.png";
-import imgAltai from "../../Images/place/altai.png";
+import imgKosa from "../../images/place/kosa.png";
+import imgKolsky from "../../images/place/kolsky.png";
+import imgBaikal from "../../images/place/baikal.png";
+import imgKarelia from "../../images/place/kareliya.png";
+import imgAltai from "../../images/place/altai.png";
 
 function Place() {
   return (

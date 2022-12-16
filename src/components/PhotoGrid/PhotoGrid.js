@@ -1,16 +1,16 @@
 import styles from "./PhotoGrid.module.css";
-import gridPhoto_1 from "../../Images/photogrid/photogrid_1.png";
-import gridPhoto_2 from "../../Images/photogrid/photogrid_2.png";
-import gridPhoto_3 from "../../Images/photogrid/photogrid_3.png";
-import gridPhoto_4 from "../../Images/photogrid/photogrid_4.png";
-import gridPhoto_5 from "../../Images/photogrid/photogrid_5.png";
-import gridPhoto_6 from "../../Images/photogrid/photogrid_6.png";
-import gridPhoto_7 from "../../Images/photogrid/photogrid_7.png";
-import gridPhoto_8 from "../../Images/photogrid/photogrid_8.png";
-import gridPhoto_9 from "../../Images/photogrid/photogrid_9.png";
-import gridPhoto_10 from "../../Images/photogrid/photogrid_10.png";
-import gridPhoto_11 from "../../Images/photogrid/photogrid_11.png";
-import gridPhoto_12 from "../../Images/photogrid/photogrid_12.png";
+import gridPhoto_1 from "../../images/photogrid/photogrid_1.png";
+import gridPhoto_2 from "../../images/photogrid/photogrid_2.png";
+import gridPhoto_3 from "../../images/photogrid/photogrid_3.png";
+import gridPhoto_4 from "../../images/photogrid/photogrid_4.png";
+import gridPhoto_5 from "../../images/photogrid/photogrid_5.png";
+import gridPhoto_6 from "../../images/photogrid/photogrid_6.png";
+import gridPhoto_7 from "../../images/photogrid/photogrid_7.png";
+import gridPhoto_8 from "../../images/photogrid/photogrid_8.png";
+import gridPhoto_9 from "../../images/photogrid/photogrid_9.png";
+import gridPhoto_10 from "../../images/photogrid/photogrid_10.png";
+import gridPhoto_11 from "../../images/photogrid/photogrid_11.png";
+import gridPhoto_12 from "../../images/photogrid/photogrid_12.png";
 
 function PhotoGrid() {
   return (
