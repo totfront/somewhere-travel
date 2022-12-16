@@ -8,35 +8,40 @@ import imgAltai from "../../Images/place/altai.png";
 function Place() {
   return (
     <section className={styles.wrapper}>
-      <section className={styles.kosa}>
-        <h1 className={styles.title}>Куршская коса</h1>
-        <h2 className={styles.subtitle}>
-          <span className={styles.url}>URL</span>
-          <br></br>
-          <a href="#" className={styles.link}>
-            park-kosa.ru
-          </a>
-        </h2>
-        <img className={styles.img} src={imgKosa} alt="Kurshskaya Kosa"></img>
-        <p className={styles.paragraph}>
-          Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
-          горизонта — спокойного Куршского залива с одной стороны и подёрнутого
-          рябью волн Балтийского моря с другой. Уникальная природная зона на
-          краю российского анклава.
-        </p>
-        <p className={styles.paragraph}>
-          На этом Калининградская область не заканчивается. Для путешественника
-          и исследователя там же по соседству — самая западная точка России,
-          Балтийская коса, — и немецкое наследие россыпи небольших приморских
-          городов. Атмосфера здешних мест исключает суету, окуная в спокойствие
-          природы и запах стального, прохладного моря.
-        </p>
-      </section>
-      <section className={styles.kolski}>
+      <article className={styles.article}>
+        <div className={styles.articleHeader}>
+          <h1 className={styles.title}>Куршская коса</h1>
+          <h2 className={styles.subtitle}>
+            <span className={styles.url}>URL</span>
+            <a href="#" className={styles.link}>
+              park-kosa.ru
+            </a>
+          </h2>
+        </div>
+        <div className={styles.articleContent}>
+          <img className={styles.img} src={imgKosa} alt="Kurshskaya Kosa"></img>
+          <div className={styles.paragraphs}>
+            <p className={styles.paragraph}>
+              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+              горизонта — спокойного Куршского залива с одной стороны и
+              подёрнутого рябью волн Балтийского моря с другой. Уникальная
+              природная зона на краю российского анклава.
+            </p>
+            <p className={styles.paragraph}>
+              На этом Калининградская область не заканчивается. Для
+              путешественника и исследователя там же по соседству — самая
+              западная точка России, Балтийская коса, — и немецкое наследие
+              россыпи небольших приморских городов. Атмосфера здешних мест
+              исключает суету, окуная в спокойствие природы и запах стального,
+              прохладного моря.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article className={styles.article}>
         <h1 className={styles.title}>Кольский</h1>
         <h2 className={styles.subtitle}>
           <span className={styles.url}>URL</span>
-          <br></br>
           <a href="#" className={styles.link}>
             National Geographic
           </a>
@@ -59,12 +64,11 @@ function Place() {
           апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное
           сияние начинает сбываться с билетом в Мурманск.
         </p>
-      </section>
-      <section className={styles.altai}>
+      </article>
+      <article className={styles.article}>
         <h1 className={styles.title}>Алтай</h1>
         <h2 className={styles.subtitle}>
           <span className={styles.url}>URL</span>
-          <br></br>
           <a href="#" className={styles.link}>
             Facebook
           </a>
@@ -82,12 +86,11 @@ function Place() {
           бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И
           знаменитые манулы — тоже обитатели Алтайского края.
         </p>
-      </section>
-      <section className={styles.baikal}>
+      </article>
+      <article className={styles.article}>
         <h1 className={styles.title}>Зимний Байкал</h1>
         <h2 className={styles.subtitle}>
           <span className={styles.url}>URL</span>
-          <br></br>
           <a href="#" className={styles.link}>
             https://vk.com/baikalmile
           </a>
@@ -109,12 +112,11 @@ function Place() {
           льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен
           мировой рекорд — 197.011 км/ч.
         </p>
-      </section>
-      <section className={styles.karelia}>
+      </article>
+      <article className={styles.article}>
         <h1 className={styles.title}>Карелия</h1>
         <h2 className={styles.subtitle}>
           <span className={styles.url}>URL</span>
-          <br></br>
           <a href="#" className={styles.link}>
             http://vodlozero.ru/
           </a>
@@ -135,7 +137,7 @@ function Place() {
           паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто
           тут хозяин.
         </p>
-      </section>
+      </article>
     </section>
   );
 }
