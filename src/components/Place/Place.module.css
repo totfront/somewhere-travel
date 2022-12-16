@@ -91,3 +91,57 @@
         max-width: none;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .wrapper {
+        margin-top: 88px;
+    }
+
+    .article {
+        max-width: 928px;
+        margin: 92px auto;
+    }
+
+    .articleHeader {
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 48px;
+    }
+
+    .title {
+        font-family: "InterBlack";
+        line-height: 76px;
+        max-width: 440px;
+        font-size: 72px;
+    }
+
+    .subtitle {
+        align-self: flex-end;
+        min-width: 456px;
+        margin: 0;
+
+    }
+    .articleContent {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .img {
+        max-height: 440px;
+        max-width: 440px;
+        margin: 0;
+    }
+
+    .paragraphs {
+        width: 456px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: none;
+    }
+}
