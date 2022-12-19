@@ -14,8 +14,8 @@ import topsPhoto from "../../Images/photogrid/photogrid_12.png";
 
 function PhotoGrid() {
   return (
-    <section className={styles.photoGrid}>
-      <ul>
+    <section className={styles.section}>
+      <ul className={styles.photoGrid}>
         <li>
           <img src={trainPhoto} className={styles.photo} alt="Train window" />
         </li>

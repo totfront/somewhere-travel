@@ -1,4 +1,6 @@
 .photoGrid {
+    padding: 0;
+    list-style: none;
     max-width: 288px;
     display: grid;
     gap: 12px 12px;
