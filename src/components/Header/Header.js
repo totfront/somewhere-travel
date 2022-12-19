@@ -1,6 +1,10 @@
 import styles from "./Header.module.css";
 import headerLogo from "../../Images/__logo.svg";
 
+const changeLanguage = () => {
+  
+};
+
 function Header() {
   return (
     <header className={styles.header}>
@@ -9,12 +13,21 @@ function Header() {
         <p className={styles.imageSignature}>Россия</p>
       </div>
       <div className={styles.links}>
-        <a href="#" className={`${styles.link} ${styles.ruLink}`}>
+        {/* rename styles */}
+        <button
+          type={"button"}
+          onClick={changeLanguage}
+          className={`${styles.link} ${styles.ruLink}`}
+        >
           Ru
-        </a>
-        <a href="#" className={`${styles.link} ${styles.enLink}`}>
+        </button>
+        <button
+          type={"button"}
+          onClick={changeLanguage}
+          className={`${styles.link} ${styles.enLink}`}
+        >
           En
-        </a>
+        </button>
       </div>
     </header>
   );
