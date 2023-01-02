@@ -19,27 +19,24 @@ justify-content: space-between;
   font-size: 18px;
 }
 
-.links {
+.buttons {
   margin-top: 30px;
 }
 
-.link {
+.button {
   text-decoration: none;
   color: white;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .ruLink {
-  text-decoration-line: underline;
-  font-size: 18px;
-  line-height: 20px;
   margin-right: 18px;
 }
-
-.enLink {
-  font-size: 18px;
-  line-height: 20px;
-}
-
 @media (min-width: 768px) {
   .header {
     margin: auto;

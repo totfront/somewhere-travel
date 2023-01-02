@@ -1,11 +1,13 @@
 import styles from "./Lead.module.css";
 import route from "../../Images/route.svg";
-import texts from "../../shared/texts.json";
+import { useContext } from "react";
+import { LanguageContext } from "../App/App";
 
 function Lead() {
+  const textContent = useContext(LanguageContext);
   return (
     <section className={styles.wrapper}>
-      <h1 className={styles.title}>{texts.Lead.title.ru}</h1>
+      <h1 className={styles.title}>{textContent.lead.title}</h1>
       <h2 className={styles.subtitle}>
         Настоящая страна не в выпусках новостей, а здесь.
       </h2>

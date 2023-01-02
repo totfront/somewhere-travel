@@ -1,36 +1,31 @@
 import styles from "./Header.module.css";
 import headerLogo from "../../Images/__logo.svg";
 
-const changeLanguage = () => {
-  
-};
-
-function Header() {
+const Header = ({ setLanguage, language }) => {
   return (
     <header className={styles.header}>
       <div className={styles.logoWrapper}>
         <img className="headerImage" src={headerLogo} alt="Map of Russia"></img>
         <p className={styles.imageSignature}>Россия</p>
       </div>
-      <div className={styles.links}>
-        {/* rename styles */}
+      <div className={styles.buttons}>
         <button
           type={"button"}
-          onClick={changeLanguage}
-          className={`${styles.link} ${styles.ruLink}`}
+          onClick={() => setLanguage("ru")}
+          className={`${styles.button} ${styles.ruLink}`}
         >
           Ru
         </button>
         <button
           type={"button"}
-          onClick={changeLanguage}
-          className={`${styles.link} ${styles.enLink}`}
+          onClick={() => setLanguage("eng")}
+          className={`${styles.button} ${styles.enLink}`}
         >
           En
         </button>
       </div>
     </header>
   );
-}
+};
 
 export default Header;
