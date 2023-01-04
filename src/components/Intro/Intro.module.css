@@ -1,9 +1,7 @@
 .wrapper {
     max-width: 288px;
     margin: 64px auto 0 auto;
-    display:flex;
-    flex-direction: column;
-    align-items: start;
+
 }
 
 .title {
@@ -26,7 +24,6 @@
     display: inline-block;
     padding-inline-start: 0px;
     list-style: none;
-    align-self: flex-start;
     margin-top: 34px;
 }
 
@@ -54,7 +51,6 @@
 @media (min-width: 1024px) {
     .wrapper {
         max-width: 690px;
-        align-items: start;
         margin: 64px 286px 0 48px
     }
 }
@@ -62,7 +58,6 @@
 @media (min-width: 1280px) {
     .wrapper {
         max-width: 690px;
-        align-items: start;
         margin: 64px 442px 0 148px
     }
 }
