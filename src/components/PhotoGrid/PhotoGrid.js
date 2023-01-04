@@ -12,6 +12,7 @@ import treesPhoto from "../../Images/photogrid/photogrid_10.png";
 import cliffPhoto from "../../Images/photogrid/photogrid_11.png";
 import topsPhoto from "../../Images/photogrid/photogrid_12.png";
 
+
 function PhotoGrid() {
   return (
     <section className={styles.section}>
