@@ -27,13 +27,12 @@
 
 .backgroundPhoto {
     position: relative;
-
     width: 100%;
     max-width: 100%;
     min-height: 200px;
     margin: 0;
 
-    background: center/cover url("../../Images/womanSleeping.png") no-repeat;
+    background: center/cover url("../../images/womanSleeping.png") no-repeat;
 
     object-position: center;
     object-fit: cover;

@@ -1,0 +1,147 @@
+.title {
+    line-height: 35px;
+    font-size: 32px;
+    color: white;
+    font-family: "InterBlack";
+    margin: 64px 16px 0 16px;
+}
+.subtitle {
+    margin: 32px 16px 0 16px;
+}
+.url {
+    display: block;
+    font-family: "InterRegular";
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.link {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: white;
+    text-decoration-line: underline;
+}
+
+.img {
+    width: 100%;
+    margin: 32px 0;
+}
+
+.paragraph {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26.08px;
+    color: white;
+    margin: 0px auto;
+}   
+.paragraph:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+
+    .wrapper {
+        margin-top: 88px;
+    }
+
+    .article {
+        max-width: 720px;
+        margin: 73px auto;
+    }
+    .articleHeader {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+
+    .title {
+        max-width: 340px;
+        margin: 0;
+        font-size: 42px;
+    }
+
+    .subtitle {
+        min-width: 352px;
+        margin: 0;
+    }
+    .articleContent {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .img {
+        max-height: 340px;
+        max-width: 340px;
+        margin: 0;
+    }
+
+    .paragraphs {
+        width: 352px;
+    }
+
+    .paragraph {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: none;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .article {
+        max-width: 928px;
+        margin: 92px auto;
+    }
+
+    .title {
+        font-family: "InterBlack";
+        line-height: 76px;
+        max-width: 440px;
+        font-size: 72px;
+    }
+
+    .subtitle {
+        align-self: flex-end;
+        min-width: 456px;
+    }
+
+    .img {
+        max-height: 440px;
+        max-width: 440px;
+    }
+
+    .paragraphs {
+        width: 456px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .article {
+        max-width: 984px;
+    }
+
+    .title {
+        max-width: 460px;
+    }
+
+
+    .img {
+        max-height: 460px;
+        max-width: 460px;
+    }
+
+    .paragraphs {
+        width: 484px;
+    }
+}
