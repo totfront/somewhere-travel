@@ -1,17 +1,16 @@
 import styles from "./PhotoGrid.module.css";
-import trainPhoto from "../../Images/photogrid/photogrid_1.png";
-import cloudsPhoto from "../../Images/photogrid/photogrid_2.png";
-import wolfPhoto from "../../Images/photogrid/photogrid_3.png";
-import forestPhoto from "../../Images/photogrid/photogrid_4.png";
-import carPhoto from "../../Images/photogrid/photogrid_5.png";
-import beachPhoto from "../../Images/photogrid/photogrid_6.png";
-import mountainsPhoto from "../../Images/photogrid/photogrid_7.png";
-import roadSignPhoto from "../../Images/photogrid/photogrid_8.png";
-import mistyPhoto from "../../Images/photogrid/photogrid_9.png";
-import treesPhoto from "../../Images/photogrid/photogrid_10.png";
-import cliffPhoto from "../../Images/photogrid/photogrid_11.png";
-import topsPhoto from "../../Images/photogrid/photogrid_12.png";
-
+import trainPhoto from "../../Images1/photogrid/photogrid_1.png";
+import cloudsPhoto from "../../Images1/photogrid/photogrid_2.png";
+import wolfPhoto from "../../Images1/photogrid/photogrid_3.png";
+import forestPhoto from "../../Images1/photogrid/photogrid_4.png";
+import carPhoto from "../../Image1s/photogrid/photogrid_5.png";
+import beachPhoto from "../../Images1/photogrid/photogrid_6.png";
+import mountainsPhoto from "../../Images1/photogrid/photogrid_7.png";
+import roadSignPhoto from "../../Images1/photogrid/photogrid_8.png";
+import mistyPhoto from "../../Images1/photogrid/photogrid_9.png";
+import treesPhoto from "../../Images1/photogrid/photogrid_10.png";
+import cliffPhoto from "../../Images1/photogrid/photogrid_11.png";
+import topsPhoto from "../../Images1/photogrid/photogrid_12.png";
 
 function PhotoGrid() {
   return (
