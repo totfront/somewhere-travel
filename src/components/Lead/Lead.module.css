@@ -27,13 +27,12 @@
 
 .backgroundPhoto {
     position: relative;
-
     width: 100%;
     max-width: 100%;
     min-height: 200px;
     margin: 0;
 
-    background: center/cover url("../../Images/womanSleeping.png") no-repeat;
+    background: center/cover url("../../images/womanSleeping.png") no-repeat;
 
     object-position: center;
     object-fit: cover;
@@ -97,6 +96,10 @@
         margin-right: auto;
         margin-left: 24px;
     }
+
+    .caption {
+        margin-left: 32px;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -114,6 +117,10 @@
         margin-top: 8px;
         margin-left: 48px;
     }
+
+    .caption {
+        margin-left: 48px;
+    }
   }
 
   @media (min-width: 1280px) {
@@ -125,5 +132,9 @@
 
     .caption {
         margin-left: 148px;
+    }
+
+    .caption {
+        margin-left: 150px;
     }
   }
