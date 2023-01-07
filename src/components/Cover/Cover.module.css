@@ -1,0 +1,68 @@
+.wrapper {
+    background-image: url("../../images/coverOverlay.svg"), url("../../images/coverPhoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    width: 100%;
+}
+
+.title {
+    max-width: 238px;
+    margin: auto;
+    padding-top: 33px;
+    color: white;
+    text-align: center;
+    font-family: "InterBlack";
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.subtitle {
+    margin: 16px auto 0 auto;
+    min-width: 238px;
+    color: white;
+    text-align:center;
+    font-family: "InterRegular";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        min-height: 480px;
+    }
+    .title {
+        max-width: 560px;
+        padding-top: 115px;
+        font-size: 72px;
+        line-height: 76px;
+    }
+
+    .subtitle {
+        margin-top: 32px;
+        max-width: 360px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        min-height: 640px;
+    }
+    .title {
+        padding-top: 195px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .wrapper {
+        margin: auto;
+        min-height: 740px;
+        max-width: 1184px;
+    }
+    .title {
+        padding-top: 245px;
+    }
+}

@@ -4,6 +4,7 @@ import Lead from "../Lead/Lead";
 import Place from "../Place/Place";
 import PhotoGrid from "../PhotoGrid/PhotoGrid";
 import Intro from "../Intro/Intro";
+import Cover from "../Cover/Cover";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Lead />
       <Intro />
       <Place />
+      <Cover />
     </div>
   );
 }
