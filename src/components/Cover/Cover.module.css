@@ -3,13 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    width: 100%;
+    overflow: auto;
 }
 
 .title {
     max-width: 238px;
-    margin: auto;
-    padding-top: 33px;
+    margin: 33px auto 0 auto;
     color: white;
     text-align: center;
     font-family: "InterBlack";
@@ -34,7 +33,7 @@
     }
     .title {
         max-width: 560px;
-        padding-top: 115px;
+        margin-top: 115px;
         font-size: 72px;
         line-height: 76px;
     }
@@ -52,7 +51,7 @@
         min-height: 640px;
     }
     .title {
-        padding-top: 195px;
+        margin-top: 195px;
     }
 }
 
@@ -63,6 +62,6 @@
         max-width: 1184px;
     }
     .title {
-        padding-top: 245px;
+        margin-top: 245px;
     }
 }
