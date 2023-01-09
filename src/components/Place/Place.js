@@ -13,7 +13,11 @@ function Place() {
           <h2 className={styles.title}>Куршская коса</h2>
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
-            <a href="#" className={styles.link}>
+            <a
+              href="https://park-kosa.ru"
+              target="_blank"
+              className={styles.link}
+            >
               park-kosa.ru
             </a>
           </h3>
@@ -43,8 +47,12 @@ function Place() {
           <h2 className={styles.title}>Кольский</h2>
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
-            <a href="#" className={styles.link}>
-              National Geographic
+            <a
+              href="https://www.culture.ru/institutes/12064/kolskii-poluostrov"
+              target="_blank"
+              className={styles.link}
+            >
+              culture.ru
             </a>
           </h3>
         </div>
@@ -77,7 +85,11 @@ function Place() {
           <h2 className={styles.title}>Алтай</h2>
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
-            <a href="#" className={styles.link}>
+            <a
+              href="https://www.facebook.com/altaiblog/"
+              target="_blank"
+              className={styles.link}
+            >
               Facebook
             </a>
           </h3>
@@ -106,7 +118,11 @@ function Place() {
           <h2 className={styles.title}>Зимний Байкал</h2>
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
-            <a href="#" className={styles.link}>
+            <a
+              href="https://vk.com/baikalmile"
+              target="_blank"
+              className={styles.link}
+            >
               https://vk.com/baikalmile
             </a>
           </h3>
@@ -138,7 +154,11 @@ function Place() {
           <h2 className={styles.title}>Карелия</h2>
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
-            <a href="#" className={styles.link}>
+            <a
+              href="http://vodlozero.ru/"
+              target="_blank"
+              className={styles.link}
+            >
               http://vodlozero.ru/
             </a>
           </h3>

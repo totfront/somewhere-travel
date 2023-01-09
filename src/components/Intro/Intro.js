@@ -17,25 +17,27 @@ function Intro() {
       </p>
       <ul className={styles.introList}>
         <li className={styles.introItem}>
-          <span className={styles.boldItem}>Часовых поясов</span> 11
+          <span className={styles.boldItem}>Часовых поясов</span>
+          <span>11</span>
         </li>
         <li className={styles.introItem}>
           <span className={styles.boldItem}>
             Объектов природного наследия ЮНЕСКО
-          </span>{" "}
-          12
+          </span>
+          <span>12</span>
         </li>
         <li className={styles.introItem}>
           <span className={styles.boldItem}>
             Объектов культурного наследия ЮНЕСКО
-          </span>{" "}
-          16
+          </span>
+          <span>16</span>
         </li>
         <li className={styles.introItem}>
-          <span className={styles.boldItem}>Природных заповедников</span> 105
+          <span className={styles.boldItem}>Природных заповедников</span>{" "}
+          <span>105</span>
         </li>
         <li className={styles.introItem}>
-          <span className={styles.boldItem}>Аэропортов</span> 241
+          <span className={styles.boldItem}>Аэропортов</span> <span>241</span>
         </li>
       </ul>
     </section>

@@ -5,9 +5,11 @@
     font-family: "InterBlack";
     margin: 64px 16px 0 16px;
 }
+
 .subtitle {
     margin: 32px 16px 0 16px;
 }
+
 .url {
     display: block;
     font-family: "InterRegular";
