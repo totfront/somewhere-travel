@@ -49,8 +49,8 @@ function Footer() {
             Путешествие
           </a>
         </li>
-        <li className={styles.copyright}>© 2023. Роман Кош</li>
       </ul>
+      <p className={styles.copyright}>© 2023. Роман Кош</p>
     </section>
   );
 }
