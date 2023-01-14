@@ -14,7 +14,7 @@ function Place() {
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
             <a
-              href="https://park-kosa.ru"
+              href="http://www.park-kosa.ru/"
               target="_blank"
               className={styles.link}
             >
@@ -48,11 +48,11 @@ function Place() {
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
             <a
-              href="https://www.culture.ru/institutes/12064/kolskii-poluostrov"
+              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank"
               className={styles.link}
             >
-              culture.ru
+              National Geographic
             </a>
           </h3>
         </div>
@@ -86,7 +86,7 @@ function Place() {
           <h3 className={styles.subtitle}>
             <span className={styles.url}>URL</span>
             <a
-              href="https://www.facebook.com/altaiblog/"
+              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               target="_blank"
               className={styles.link}
             >
