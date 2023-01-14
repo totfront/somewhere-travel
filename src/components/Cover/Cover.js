@@ -12,7 +12,7 @@ function Cover() {
         src={trainsPhoto}
         alt="Train station"
         className={styles.coverPhoto}
-      ></img>
+      />
       <div className={styles.text}>
         <h2 className={styles.title}>До Байкала «на собаках»</h2>
         <h3 className={styles.subtitle}>
