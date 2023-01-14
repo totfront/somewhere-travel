@@ -3,7 +3,11 @@ import styles from "./Cover.module.css";
 
 function Cover() {
   return (
-    <section className={styles.wrapper}>
+    <a
+      href="https://stampsy.com/na-elektrichkakh-do-baikala"
+      target="_blank"
+      className={styles.wrapper}
+    >
       <img
         src={trainsPhoto}
         alt="Train station"
@@ -17,7 +21,7 @@ function Cover() {
         </h3>
       </div>
       <div className={styles.rectangle} />
-    </section>
+    </a>
   );
 }
 
