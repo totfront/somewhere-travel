@@ -6,7 +6,7 @@ function Footer() {
       <ul className={styles.list}>
         <li className={styles.footerItem}>
           <a
-            href="https://www.google.com/maps"
+            href="https://www.yandex.ru/maps"
             target="_blank"
             className={styles.link}
           >
@@ -15,7 +15,7 @@ function Footer() {
         </li>
         <li className={styles.footerItem}>
           <a
-            href="https://www.gismeteo.ru/catalog/russia/"
+            href="https://www.yandex.ru/pogoda"
             target="_blank"
             className={styles.link}
           >
@@ -24,7 +24,7 @@ function Footer() {
         </li>
         <li className={styles.footerItem}>
           <a
-            href="https://www.tutu.ru/"
+            href="https://rasp.yandex.ru/"
             target="_blank"
             className={styles.link}
           >
@@ -33,7 +33,7 @@ function Footer() {
         </li>
         <li className={styles.footerItem}>
           <a
-            href="http://www.consultant.ru/law/ref/calendar/proizvodstvennye/2023/"
+            href="https://calendar.yandex.ru"
             target="_blank"
             className={styles.link}
           >
@@ -42,7 +42,7 @@ function Footer() {
         </li>
         <li className={styles.footerItem}>
           <a
-            href="https://34travel.me/post/5-travel-apps"
+            href="https://travel.yandex.ru"
             target="_blank"
             className={styles.link}
           >
