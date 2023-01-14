@@ -4,6 +4,7 @@
     overflow: auto;
     display: grid;
     margin-top: 66px;
+    opacity: 1;
 }
 
 .rectangle {
@@ -15,6 +16,7 @@
 }
 
 .wrapper:hover .rectangle {
+    transition: opacity .4s;
     opacity: 0.8;
 }
 
